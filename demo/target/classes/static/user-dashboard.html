@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>User Dashboard</title>
+</head>
+<body>
+<h1>Welcome to User Dashboard</h1>
+<form method="post" action="/user/updateProfile">
+    <input type="text" name="calories" placeholder="Calories">
+    <input type="text" name="protein" placeholder="Protein">
+    <input type="text" name="carbs" placeholder="Carbs">
+    <input type="text" name="fats" placeholder="Fats">
+    <button type="submit">Update Profile</button>
+</form>
+</body>
+</html>
